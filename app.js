@@ -3,7 +3,7 @@ var final = "global";
 var link =[];
 var proWindow = [];
 proWindow.length=0;
-link.length=0;
+link.length=1;
 var ids = document.querySelectorAll('.-utLf');
 for(let i=0;ids.length;i++){
     link.push('https://www.instagram.com/'+ids[i].innerText);
